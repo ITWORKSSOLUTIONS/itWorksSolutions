@@ -8,10 +8,10 @@
       >
       <div class="mt-4 md:mt-0">
         <h2 class="mb-4 text-4xl tracking-tight font-extrabold  text-white">
-          Let's create more tools and ideas that brings us together.
+          Soluciones digitales hechas para ti
         </h2>
         <p class="mb-6 font-light  md:text-lg text-gray-400">
-          Flowbite helps you connect with friends and communities of people who share your interests. Connecting with your friends and family as well as discovering new ones is easy with features like Groups.
+          Desarrollamos software personalizado que se adapta exactamente a las necesidades de tu empresa. Desde plataformas web hasta sistemas internos complejos, diseñamos y construimos herramientas eficientes, seguras y escalables, que evolucionan contigo y tu negocio.
         </p>
       </div>
     </div>

@@ -6,7 +6,7 @@
           Nuestro equipo
         </h2>
         <p class="font-light text-gray-500 sm:text-xl ">
-          Explore the whole collection of open-source web components and elements built with the utility classes from Tailwind
+          Conoce al equipo que te llevará al éxito en tu transformación digital.
         </p>
       </div> 
       <div class="grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
