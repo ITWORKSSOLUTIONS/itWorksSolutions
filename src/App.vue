@@ -1,7 +1,20 @@
 <template>
-  <div class="bg-gray-900 text-white h-screen">
-    <h1 class="text-avocado-400">
-      Bienvenido
-    </h1>
-  </div>
+  <Navbar />
+  <HeroSection />
+  <Cta />
+  <Section1 />
+  <Section3 />
+  <NuestroEquipo />
+  <Footer />
 </template>
+
+<script setup>
+import HeroSection from './components/HeroSection.vue';
+import Navbar from './components/navbar.vue';
+import Section1 from './components/Section1.vue';
+import Cta from './components/CTA.vue';
+import Section3 from './components/Section3.vue';
+import NuestroEquipo from './components/NuestroEquipo.vue';
+import Footer from './components/Footer.vue';
+
+</script>
