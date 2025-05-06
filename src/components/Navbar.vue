@@ -8,8 +8,8 @@
         >
           <img
             src="@/assets/logo.png"
-            class="mr-3 h-6 sm:h-9"
-            alt="Flowbite Logo"
+            class="mr-3 h-10 sm:h-20 md:h-30"
+            alt="ITWorks! Solutions Logo"
           >
         </a>
         <!-- <p class="text-avocado-400">
