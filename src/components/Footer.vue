@@ -3,7 +3,8 @@
     <div class="mx-auto max-w-screen-xl">
       <div class="md:flex md:justify-between">
         <div class="mb-6 md:mb-0">
-          <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">ItWorksSolutions</span>
+          <p class="self-center text-2xl font-semibold whitespace-nowrap text-white">Confía en los especialistas,</p>
+          <p class="self-center text-2xl font-semibold whitespace-nowrap text-white">¡Haz realidad tu proyecto!</p>
         </div>
         <div class="grid gap-8 mr-6">
           <div>
@@ -13,9 +14,9 @@
             <ul class=" text-gray-400">
               <li class="mb-4">
                 <a
-                  href="https://flowbite.com"
+                  :href="obfuscatedEmailLink"
                   class="hover:underline"
-                >Correo de la empresa</a>
+                >{{ obfuscatedEmail }}</a>
               </li>
             </ul>
           </div>
@@ -23,10 +24,10 @@
       </div>
       <hr class="my-6  sm:mx-auto border-gray-700 lg:my-8">
       <div class="sm:flex sm:items-center sm:justify-between">
-        <span class="text-sm  sm:text-center text-gray-400">© 2022 <a
-          href="https://flowbite.com"
+        <span class="text-sm  sm:text-center text-gray-400">© {{ currentYear }} <a
+          href="https://itworks.solutions"
           class="hover:underline"
-        >Flowbite™</a>. All Rights Reserved.
+        >ITWorks! Solutions</a>. All Rights Reserved.
         </span>
         <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
           <a
@@ -105,3 +106,20 @@
     </div>
   </footer>
 </template>
+
+<script>
+  export default {
+    name: "Footer",
+    computed: {
+      obfuscatedEmail(){
+        return atob("Y29udGFjdEBpdHdvcmtzLnNvbHV0aW9ucw==")
+      },
+      obfuscatedEmailLink(){
+        return atob("bWFpbHRvOmNvbnRhY3RAaXR3b3Jrcy5zb2x1dGlvbnM=")
+      },
+      currentYear(){
+        return new Date().getFullYear();
+      }
+    }
+  };
+</script>
