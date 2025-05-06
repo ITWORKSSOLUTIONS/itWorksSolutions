@@ -11,24 +11,34 @@
       </div> 
       <div class="grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
         <div
-          v-for="item in [1, 2, 3, 4, 5]"
+          v-for="item in equipo"
           :key="item"
           class="text-center text-gray-500 "
         >
           <img
-            class="mx-auto mb-4 w-36 h-36 rounded-full"
-            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
-            alt="Bonnie Avatar"
+            class="mx-auto mb-4 w-36 h-40 rounded-full"
+            :src="item.img"
+            :alt="`Portada de ${item.nombre}`"
           >
           <h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900">
-            <a href="#">Bonnie Green</a>
+            <a href="#">{{ item.nombre }}</a>
           </h3>
-          <i>CEO/Co-founder</i>
+          <i>{{ item.cargo }}</i>
           <p class="mt-2 text-sm">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore eaque quia autem est vel velit a exercitationem in quis, aliquam facilis, fuga molestias quos quo. Voluptatibus, neque! Perferendis, sapiente nemo?
+            {{ item.descripcion }}
           </p>
         </div>
       </div>  
     </div>
   </section>
 </template>
+<script setup>
+const equipo = [
+  {
+    nombre: 'Borja Serrano',
+    cargo: 'Co-fundador',
+    img: new URL('@/assets/equipo/borja.jpg', import.meta.url).href,
+    descripcion: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore eaque quia autem est vel velit a exercitationem in quis, aliquam facilis, fuga molestias quos quo. Voluptatibus, neque! Perferendis, sapiente nemo?'
+  },
+];
+</script>
