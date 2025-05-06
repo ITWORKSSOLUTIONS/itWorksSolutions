@@ -1,5 +1,16 @@
-# Vue 3 + Vite
+## Proyecto ItWorksSolutions
+Proyecto creado con Vite + Vue + Tailwindcss
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Instalación
+Node v22.3 y pnpm v10.10
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+```
+pnpm i
+pnpm dev //para iniciar la web
+```
+
+## Deploy a gitHub Pages
+Para construir y subir los archivos a la rama gh-pages usar:
+```
+pnpm run deploy
+```
