@@ -40,5 +40,11 @@ const equipo = [
     img: new URL('@/assets/equipo/borja.jpg', import.meta.url).href,
     descripcion: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore eaque quia autem est vel velit a exercitationem in quis, aliquam facilis, fuga molestias quos quo. Voluptatibus, neque! Perferendis, sapiente nemo?'
   },
+  {
+    nombre: 'Baymax',
+    cargo: 'Developer',
+    img: new URL('@/assets/equipo/baymax.jpg', import.meta.url).href,
+    descripcion: 'Error 404 Not Found'
+  }
 ];
 </script>
