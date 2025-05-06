@@ -43,7 +43,7 @@ const equipo = [
   {
     nombre: 'Baymax',
     cargo: 'Developer',
-    img: new URL('@/assets/equipo/baymax.jpg', import.meta.url).href,
+    img: new URL('@/assets/equipo/baymax.png', import.meta.url).href,
     descripcion: 'Error 404 Not Found'
   }
 ];
