@@ -44,7 +44,7 @@ const equipo = [
     nombre: 'Baymax',
     cargo: 'Developer',
     img: new URL('@/assets/equipo/baymax.png', import.meta.url).href,
-    descripcion: 'Blockchain, Smartcontracts, Ethereum, Bitcoin, Ruby, Rails, Sinatra, Go, Python, Cryptography'
+    descripcion: 'Blockchain, Smartcontracts, Ethereum, Solidity, Bitcoin, Ruby, Rails, Sinatra, Go, Python, Cryptography'
   }
 ];
 </script>
