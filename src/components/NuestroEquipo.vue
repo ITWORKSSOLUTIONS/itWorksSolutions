@@ -45,6 +45,12 @@ const equipo = [
     cargo: 'Developer',
     img: new URL('@/assets/equipo/baymax.png', import.meta.url).href,
     descripcion: 'Blockchain, Smartcontracts, Ethereum, Solidity, Bitcoin, Ruby, Rails, Sinatra, Go, Python, Cryptography'
+  },
+  {
+    nombre: 'Elías',
+    cargo: 'CTO',
+    img: new URL('@/assets/equipo/elias.png', import.meta.url).href,
+    descripcion: 'Full-time Peanut Eater'
   }
 ];
 </script>
