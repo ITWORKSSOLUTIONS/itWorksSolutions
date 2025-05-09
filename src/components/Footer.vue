@@ -24,11 +24,18 @@
       </div>
       <hr class="my-6  sm:mx-auto border-gray-700 lg:my-8">
       <div class="sm:flex sm:items-center sm:justify-between">
-        <span class="text-sm  sm:text-center text-gray-400">© {{ currentYear }} <a
+        <div class="text-sm text-center text-gray-400">© {{ currentYear }} <a
           href="https://itworks.solutions"
           class="hover:underline"
         >ITWorks! Solutions</a>. All Rights Reserved.
-        </span>
+        </div>
+        <div class="flex mt-4 space-x-2 justify-center sm:mt-0 text-gray-400">
+          <div class="text-sm align-baseline">
+            <strong>Hecho con</strong>
+            <img src="@/assets/bombilla-naranja.png" class="h-6 align-baseline inline" />
+            <strong>en Madrid</strong>
+          </div>
+        </div>
         <!--
         <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
           <a
