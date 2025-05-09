@@ -2,7 +2,7 @@
   <section class="bg-gray-100 ">
     <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
       <div class="mx-auto mb-8 max-w-screen-sm lg:mb-16">
-        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 ">
+        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-naranjaitws-400 ">
           Nuestro equipo
         </h2>
         <p class="font-light text-gray-500 sm:text-xl ">
@@ -16,14 +16,14 @@
           class="text-center text-gray-500 "
         >
           <img
-            class="mx-auto mb-4 w-36 h-40 rounded-full"
+            class="mx-auto mb-4 w-36 h-40 rounded-full border-solid border-1 border-naranjaitws-400"
             :src="item.img"
             :alt="`Portada de ${item.nombre}`"
           >
           <h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900">
             <a href="#">{{ item.nombre }}</a>
           </h3>
-          <i>{{ item.cargo }}</i>
+          <i class="text-naranjaitws-400">{{ item.cargo }}</i>
           <p class="mt-2 text-sm">
             {{ item.descripcion }}
           </p>
@@ -44,7 +44,7 @@ const equipo = [
     nombre: 'Baymax',
     cargo: 'Developer',
     img: new URL('@/assets/equipo/baymax.png', import.meta.url).href,
-    descripcion: 'Error 404 Not Found'
+    descripcion: 'Blockchain, Smartcontracts, Ethereum, Bitcoin, Ruby, Rails, Sinatra, Go, Python, Cryptography'
   }
 ];
 </script>
