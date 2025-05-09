@@ -29,6 +29,7 @@
           class="hover:underline"
         >ITWorks! Solutions</a>. All Rights Reserved.
         </span>
+        <!--
         <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
           <a
             href="#"
@@ -102,6 +103,7 @@
             /></svg>
           </a>
         </div>
+        -->
       </div>
     </div>
   </footer>
