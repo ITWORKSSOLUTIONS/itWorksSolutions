@@ -4,4 +4,5 @@
 @theme {
     --default-font-family: "Nunito", sans-serif;
     --color-avocado-400: oklch(0.92 0.19 200.08);
+    --color-naranjaitws-400: oklch(0.64 0.2072 37.88);
 }

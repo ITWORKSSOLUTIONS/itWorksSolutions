@@ -3,7 +3,7 @@
     <div class="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
       <figure class="max-w-screen-md mx-auto">
         <svg
-          class="h-12 mx-auto mb-3 text-gray-400 dark:text-gray-600"
+          class="h-12 mx-auto mb-3 text-naranjaitws-400 dark:text-gray-600"
           viewBox="0 0 24 27"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -21,15 +21,15 @@
         <figcaption class="flex items-center justify-center mt-6 space-x-3">
           <img
             class="w-6 h-6 rounded-full"
-            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png"
-            alt="profile picture"
+            src="@/assets/equipo/avatars/borja.png"
+            alt="avatar picture"
           >
           <div class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
             <div class="pr-3 font-medium text-gray-900 dark:text-white">
               Borja Serrano
             </div>
-            <div class="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">
-              FEO at itWorksSolutions
+            <div class="pl-3 text-sm font-light text-naranjaitws-400 dark:text-gray-400">
+              CEO at ITWorks! Solutions
             </div>
           </div>
         </figcaption>
