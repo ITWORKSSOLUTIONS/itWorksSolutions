@@ -36,21 +36,33 @@
 const equipo = [
   {
     nombre: 'Borja Serrano',
-    cargo: 'Co-fundador',
-    img: new URL('@/assets/equipo/borja.jpg', import.meta.url).href,
-    descripcion: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore eaque quia autem est vel velit a exercitationem in quis, aliquam facilis, fuga molestias quos quo. Voluptatibus, neque! Perferendis, sapiente nemo?'
+    cargo: 'Co-founder',
+    img: new URL('@/assets/equipo/borja.png', import.meta.url).href,
+    descripcion: 'NodeJS, PHP, Laravel, Fullstack, React, Vue, Mobile Technologies, Docker. Hard Siesta Practitioner'
   },
   {
     nombre: 'Baymax',
-    cargo: 'Developer',
+    cargo: 'Fullstack Senior Developer',
     img: new URL('@/assets/equipo/baymax.png', import.meta.url).href,
-    descripcion: 'Blockchain, Smartcontracts, Ethereum, Solidity, Bitcoin, Ruby, Rails, Sinatra, Go, Python, Cryptography'
+    descripcion: 'Blockchain, Smartcontracts, Ethereum, Solidity, Ruby, Rails, Go, Python, Cryptography. Hating neckties since 1976. Yipee-Ka-Yei!'
   },
   {
     nombre: 'Elías',
     cargo: 'CTO',
-    img: new URL('@/assets/equipo/elias.png', import.meta.url).href,
-    descripcion: 'Full-time Peanut Eater'
+    img: new URL('@/assets/equipo/elias2.png', import.meta.url).href,
+    descripcion: 'Java, Spring, NodeJS, Angular, Bootstrap, Database Management, Applied AI. Full-time Peanut Eater'
+  },
+  {
+    nombre: 'Alex',
+    cargo: 'GHIJK',
+    img: new URL('@/assets/equipo/alex.png', import.meta.url).href,
+    descripcion: 'Java, NodeJS, Angular, React, Vue, Svelte, Mobile Technologies, Applied AI. Paying for work'
+  },
+  {
+    nombre: 'Juan José Fernández',
+    cargo: 'President',
+    img: new URL('@/assets/equipo/juanjo.png', import.meta.url).href,
+    descripcion: 'All technologies are childishness for him. Above everyone and everything. Sir, yes sir!'
   }
 ];
 </script>
