@@ -1,3 +1,7 @@
+<script setup lang="ts">
+import ContactEmail from './ContactEmail.vue';
+</script>
+
 <template>
   <section class=" bg-gray-900">
     <div class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
@@ -13,6 +17,7 @@
         <p class="mb-6 font-light  md:text-lg text-gray-400">
           Desarrollamos software personalizado que se adapta exactamente a las necesidades de tu empresa. Desde plataformas web hasta sistemas internos complejos, diseñamos y construimos herramientas eficientes, seguras y escalables, que evolucionan contigo y tu negocio.
         </p>
+        <ContactEmail />
       </div>
     </div>
   </section>

@@ -1,3 +1,7 @@
+<script setup lang="ts">
+import ContactEmail from './ContactEmail.vue';
+</script>
+
 <template>
   <footer class="p-4  sm:p-6 bg-gray-800">
     <div class="mx-auto max-w-screen-xl">
@@ -13,10 +17,7 @@
             </h2>
             <ul class=" text-gray-400">
               <li class="mb-4">
-                <a
-                  :href="obfuscatedEmailLink"
-                  class="hover:underline"
-                >{{ obfuscatedEmail }}</a>
+                <ContactEmail />
               </li>
             </ul>
           </div>
@@ -115,20 +116,3 @@
     </div>
   </footer>
 </template>
-
-<script>
-  export default {
-    name: "Footer",
-    computed: {
-      obfuscatedEmail(){
-        return atob("Y29udGFjdEBpdHdvcmtzLnNvbHV0aW9ucw==")
-      },
-      obfuscatedEmailLink(){
-        return atob("bWFpbHRvOmNvbnRhY3RAaXR3b3Jrcy5zb2x1dGlvbnM=")
-      },
-      currentYear(){
-        return new Date().getFullYear();
-      }
-    }
-  };
-</script>
