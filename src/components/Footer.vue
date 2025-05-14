@@ -1,7 +1,3 @@
-<script setup lang="ts">
-import ContactEmail from './ContactEmail.vue';
-</script>
-
 <template>
   <footer class="p-4  sm:p-6 bg-gray-800">
     <div class="mx-auto max-w-screen-xl">
@@ -116,3 +112,16 @@ import ContactEmail from './ContactEmail.vue';
     </div>
   </footer>
 </template>
+
+<script>
+  import ContactEmail from './ContactEmail.vue';
+
+  export default {
+    name: "Footer",
+    computed: {
+      currentYear(){
+        return new Date().getFullYear();
+      }
+    }
+  };
+</script>
